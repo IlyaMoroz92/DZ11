@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DZ11t</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/script.js"></script>
+</head>
+<body>
+    <div class="first">
+        <div>
+            <input type="text" name="" value='' id="word" oninput="wordF()"> Слово
+        </div>
+        <div>
+            <input type="text" name="" value='' id="letter" oninput="letterF()"> Буква
+        </div>
+        <div>
+            <button id='button' onclick="sliceWord(), wordF ()">Жмяк</button>
+        </div>
+        <div>
+            <input type="text" disabled value="Результат" id='result'> 
+        </div>
+    </div>
+    <div class="second">
+        <div>
+            <input type="text" name="" value='' id="string" onchange="def(), sliceStr()"> Строка
+        </div>
+        <div>
+            <input type="text" name="" value='' id="start" onchange="def(), sliceStr()"> Начало
+        </div>
+        <div>
+            <input type="text" name="" value='' id="end" onchange="def(), sliceStr()"> Конец
+        </div>
+        <div>
+            <input type="text" name="" value='' id="step" onchange="def(), sliceStr()"> Шаг
+        </div>
+        <div>
+            <input type="text" disabled value="Результат" id='result2'> 
+        </div>
+    </div>
+    <div class="third">
+        <div>
+            <input type="text" name="" value='' id="oneDay" onchange="nextDay() "> First day
+        </div>
+        <div>
+            <input type="text" name="" value='' id="distance" onchange="nextDay() "> Distance
+        </div>
+        <div>
+            <label for="">Спортсмен преодолеет дистанцию за <input type="text" disabled value="" width='10px' id='result3'> дней</label>
+        </div>
+        <div>
+            <table>
+                <tr>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

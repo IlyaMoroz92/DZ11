@@ -1,0 +1,46 @@
+td {
+    border: 1px solid black;
+}
+
+body {
+    background-color: rgb(236, 234, 234);
+    color: rgb(64, 84, 102);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+div {
+    margin: 10px;
+
+}
+
+.second {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+input {
+    background: none;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    color: rgb(64, 84, 102);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+button {
+    background: none;
+    width: 258px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    font-size: 22px;
+    background-color: rgb(64, 84, 102);
+    color:  rgb(236, 234, 234);
+    border: rgb(236, 234, 234);
+}
